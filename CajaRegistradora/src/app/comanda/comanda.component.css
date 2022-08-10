@@ -1,0 +1,9 @@
+.titulo{
+    background-color: grey;
+    
+}
+
+.titulo h1{
+    margin-left: 10px;
+    font-size: 24px;
+}

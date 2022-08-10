@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+
+    
+}
+.titulo{
+    text-align: center;
+}
+
+.izquierda{
+    width: 70%;
+    margin: 10px;
+    
+}
+
+.derecha{
+    width: 20%;
+    margin: 10px;
+    
+}

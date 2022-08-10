@@ -1,0 +1,9 @@
+<div class="lista">
+    <div *ngFor="let tarea of tareas; let indice = index" class="tarea" [ngClass]="{completa: tarea.completa, incompleta: !tarea.completa}">
+        <h1>{{tarea.titulo}}</h1>
+        <p>{{tarea.descripcion}}</p>
+        <button (click)="onClick(tarea)">{{tarea.completa ? 'INCOMPLETA' : 'COMPLETA'}}</button>
+        <button (click)="onBorrar(indice)">Borrar</button>
+    </div>
+</div>
+

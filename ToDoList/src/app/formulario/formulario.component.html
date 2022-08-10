@@ -1,0 +1,14 @@
+
+<div [ngClass]="formulario">
+    <div class="form">
+        <label for="">Titulo</label><br>
+        <input type="text" [(ngModel)]="nuevaTarea.titulo">
+    </div>
+    <div class="form">
+        <label for="">Descripcion</label><br>
+        <input type="text" [(ngModel)]="nuevaTarea.descripcion">
+    </div>
+    <button (click)="onClick()">Enviar</button>
+</div>
+
+

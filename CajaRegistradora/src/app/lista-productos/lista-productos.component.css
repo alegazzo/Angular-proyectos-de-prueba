@@ -1,0 +1,28 @@
+.titulo{
+    background-color: grey;
+}
+
+.productos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.producto{
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+   
+    
+    
+}
+.imagen img{
+    width: 100%;
+}
+
+
+.titulo h1{
+    margin-left: 10px;
+    font-size: 24px;
+}

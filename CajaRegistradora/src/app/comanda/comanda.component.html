@@ -1,0 +1,8 @@
+<div class="titulo">
+    <h1>totales</h1>
+</div>
+<p>{{calculaTotal()}}$</p>
+<div class="totales">
+  <p *ngFor="let item of listaComanda; let indice = index" (click)="onClick(indice)">
+    {{item.nombre}} X {{item.cantidad}} - {{item.precio * item.cantidad}}$</p>
+</div>

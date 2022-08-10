@@ -1,0 +1,18 @@
+.paises{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.pais{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.bandera{
+    width: 100%;
+}

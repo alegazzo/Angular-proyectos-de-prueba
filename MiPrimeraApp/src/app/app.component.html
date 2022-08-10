@@ -1,0 +1,9 @@
+<cronometro [seg]="8" (finCronometro)="onFinCronometro($event)"></cronometro>
+<cronometro [seg]="100" (finCronometro)="onFinCronometro($event)"></cronometro>
+<cronometro (finCronometro)="onFinCronometro($event)"></cronometro>
+
+<input type="text" [(ngModel)]="campoTexto">
+<p>{{campoTexto}}</p>
+<button (click)="onClick()">Cambia valor variable</button>
+
+<calculadora></calculadora>
